@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo img{
+    height: 35px;
+}
+#navbar{
+    background-color: rgb(224, 44, 44);
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li :hover{
+    color: black;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 17px 21px;
+}
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 300px;
+    background-color: red;
+    background: center / cover no-repeat url("/static/bg2.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+#mission{
+    margin-bottom:10px;
+    
+
+}
+#mission h1{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#introSection div{
+    padding: 10px;
+    margin-bottom: 70px;
+    
+}
+#introSection div.small{
+    
+    font-size:30px;
+}
+#sponsorsSection{
+    height: 250px;
+    background-color: rgba(238, 143, 115, 0.8)
+    
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+.spimg{
+    margin-top: 20px;
+    height:160px;
+    padding: 30px;
+    margin-left: 40px;
+    
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mission span.item-1{
+    font-size: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 40px 30px 40px;
+    margin-left: 140px;
+    margin-right: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.card-img img{
+    padding-top: 20px;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.card-content p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+#mission span.item-2{
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px 60px 30px 60px;
+    margin-right: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+
+}
+#mission span.item-3{
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px 30px 30px 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}

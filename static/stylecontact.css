@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    margin: 12px 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 556px;
+    padding: 12px;
+    margin: 15px;
+    font-size: 15px;
+    border: 2px solid indianred;
+    outline: none;
+}
+.btn{
+    padding:12px 16px;
+    font-size: 18px;
+    border: 2px solid indianred;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: indianred;
+    color: white;
+}
